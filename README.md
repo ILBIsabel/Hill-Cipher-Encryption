@@ -55,4 +55,6 @@ The resulting ciphertext in uppercase, printed in lines no longer than 80 charac
 
 To Compile: gcc -o pa01 pa01.c
 
-To Execute: ./pa01 keyfile.txt plaintext.txt
+To Execute: ./pa01 kX.txt pX.txt
+
+            (Where kX.txt is the keytext file, and pX.txt is the plaintext file)

@@ -58,3 +58,20 @@ To Compile: gcc -o pa01 pa01.c
 To Execute: ./pa01 kX.txt pX.txt
 
             (Where kX.txt is the keytext file, and pX.txt is the plaintext file)
+
+# Development Environment: MobaXterm, Eustis, and Bash
+This program was developed and executed remotely using MobaXterm, a Windows-based terminal with SSH support.
+
+The code was compiled and run on Eustis, the university’s remote Unix server.
+
+The Bash shell was used for all command-line operations, including compiling the C program, navigating files, and running the executable.
+
+# Workflow:
+
+Connected to Eustis via SSH using MobaXterm.
+
+Uploaded the source code and input files using MobaXterm’s SFTP interface.
+
+Used Bash commands on the remote terminal to compile (gcc) and run the program.
+
+Output was displayed directly in the terminal, and debugging was also done through Bash.

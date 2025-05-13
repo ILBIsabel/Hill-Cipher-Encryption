@@ -31,7 +31,10 @@ The first line contains a single integer n (between 2 and 9), indicating the dim
 The next n lines each include n space-separated integers, representing the matrix values in row-major order.
 
 Plaintext File:
-The message file can include both letters and non-letter characters. The encryption process will:
+
+The message file can include both letters and non-letter characters. 
+
+The encryption process will:
 
 Use only alphabetic characters.
 

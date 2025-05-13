@@ -1,3 +1,4 @@
+Hill Cipher Encryption
 This project encrypts alphabetic characters from a plaintext file using the Hill cipher algorithm. The encryption key is provided as an n × n matrix, where the Hill matrix can be any size from 2x2 up to 9x9. The program accepts two command-line arguments: the first is the path to the encryption key file, and the second is the path to the plaintext file. It processes the input by converting all letters to lowercase, removing non-alphabetic characters, and padding the message with the letter 'x' to ensure the message length aligns with the matrix size. The final ciphertext is converted to uppercase and printed directly to the terminal.
 
 Features

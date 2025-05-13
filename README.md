@@ -52,5 +52,6 @@ The filtered and padded plaintext, showing exactly what will be encrypted.
 The resulting ciphertext in uppercase, printed in lines no longer than 80 characters for readability.
 
 # Compiling and Running:
-gcc -o pa01 pa01.c
-./pa01 keyfile.txt plaintext.txt
+To Compile: gcc -o pa01 pa01.c
+
+To Execute: ./pa01 keyfile.txt plaintext.txt

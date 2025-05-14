@@ -5,7 +5,7 @@ This project encrypts alphabetic characters from a plaintext file using the Hill
 # Features
 Encrypts text using the Hill cipher with a matrix size between 2×2 and 9×9.
 
-# Cleans and prepares the input by:
+# Cleans and prepares the input by
 
 Converting all letters to lowercase.
 
@@ -15,7 +15,7 @@ Padding the plaintext with the letter 'x' to match the required block size.
 
 Reads encryption matrix and plaintext from specified files.
 
-# Outputs:
+# Outputs
 
 The encryption matrix.
 
@@ -66,7 +66,15 @@ The code was compiled and run on Eustis, the university’s remote Unix server.
 
 The Bash shell was used for all command-line operations, including compiling the C program, navigating files, and running the executable.
 
-# Workflow:
+You can test your Hill cipher implementation using the provided shell script:
+
+bash pa01test.sh pa01.c
+
+bash pa01x-1.sh pa01.c
+
+This script will compile and run your code against sample inputs to verify correctness.
+
+# Workflow
 
 Connected to Eustis via SSH using MobaXterm.
 
